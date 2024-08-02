@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #90f4aebc;
+    color: #ba1e1e;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
+    transition: background-color 0.3s ease;
+
+}
+
+#navbar {
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#navbar ul li a {
+    color: #83c608;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    background-color: #c52ca9;
+
+}
+
+#home:hover{
+    background-color: #17b61a;
+}
+#about:hover{
+    background-color: aliceblue;
+}
+#services:hover{
+    background-color: #bbe186;
+}
+#contact:hover{
+    background-color: #584faf;
+}
+#content {
+    padding-top: 60px; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #a90d2a00;
+    border: 1px solid #17b61a;
+}
+
+#navbar.scrolled {
+    background-color: #16988d;
+    transition: background-color 0.3s ease;
+}
+
+#navbar.scrolled ul li a {
+    color: #9ecc13;
+}
+
+section
+{
+    background-color: #f6acfa;
+}
+#vik
+{
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom: -70px;
+    background-color: antiquewhite;
+}
